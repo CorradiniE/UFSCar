@@ -17,8 +17,6 @@ Repositório pessoal contendo trabalhos acadêmicos dos cursos de **Programaçã
 │   └── *.ipynb           # Notebooks com análises e protótipos
 ├── Arq2/                  # Arquitetura de Computadores
 │   └── semana*/          # Exercícios práticos com sensores (Python)
-├── Controle/             # Controle Automático
-│   └── *                 # Estudos e exercícios
 └── README.md             # Este arquivo
 ```
 
@@ -34,6 +32,7 @@ Repositório pessoal contendo trabalhos acadêmicos dos cursos de **Programaçã
 - **Roteiros Didáticos**: Disponíveis em `POO/ModuloXX/Roteiro*.pdf`
   - Teoria de classes, herança, polimorfismo, sobrecarga de operadores
   - Templates C++, gerenciamento de memória, arquivos
+  - Cada módulo acompanhado de guia estruturado em PDF
   
 ### PAA - Projeto e Análise de Algoritmos
 - Análise de complexidade (Big O)
@@ -41,13 +40,39 @@ Repositório pessoal contendo trabalhos acadêmicos dos cursos de **Programaçã
 - Algoritmos de ordenação, busca e grafos
 
 ### PSD - Processamento de Sinais Digitais
-**Referências acadêmicas** (não incluídas por tamanho):
-- "Periodic plus smooth image decomposition" - Trabalho base para filtragem de imagens
-- Papers sobre análise de curtose em processamento 2D
-- Trabalho em microscopia intravital com processamento de sinais
-- Metodologias de decomposição de imagens
+**Referências acadêmicas mantidas no repositório**:
+- Papers fundamentais para o Projeto Final em `PSD/Projeto_Final/`:
+  - **"Periodic plus smooth image decomposition"** (Morel & Yu) - Base teórica do projeto
+  - **Kurtosis-based Statistical Measures** - Análise de qualidade de imagens
+  - **Trabalhos em microscopia intravital** - Aplicações biomédicas
 
 Notebooks interativos disponíveis em `PSD/Projeto_Final/` e `PSD/Lab0.ipynb`
+
+---
+
+## 🚫 Otimização do Repositório
+
+Este repositório foi otimizado para eficiência de versionamento:
+
+**Arquivos excluídos do Git** (disponível localmente):
+- Livros e materialDidáticos acadêmicos (Controle Automático)
+- Compilados e executáveis (*.exe, *.o, *.dll)
+- Cache de Python (__pycache__/, .ipynb_checkpoints/)
+- Virtual environment (PSD/venv/)
+
+**Mantidos por importância** ✅:
+- PDFs de roteiros em POO/ (essenciais para enunciados dos exercícios)
+- PDFs de papers em PSD/Projeto_Final/ (fundamentam a implementação)
+
+---
+
+## 📌 Como Usar
+
+1. **Para estudar POO**: Consulte os PDFs dos roteiros dentro de cada módulo
+2. **Para análise em PSD**: Verifique os Jupyter Notebooks e papers de referência
+3. **Para práticas PAA**: Compile e execute os programas em C
+
+Repositório pronto para portfólio profissional! 🎯
 
 ### Arq2 - Arquitetura e Organização
 - Práticas com sensores de temperatura, luz giratória (Arduino)
