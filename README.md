@@ -50,22 +50,6 @@ Notebooks interativos disponíveis em `PSD/Projeto_Final/` e `PSD/Lab0.ipynb`
 
 ---
 
-## 🚫 Otimização do Repositório
-
-Este repositório foi otimizado para eficiência de versionamento:
-
-**Arquivos excluídos do Git** (disponível localmente):
-- Livros e materialDidáticos acadêmicos (Controle Automático)
-- Compilados e executáveis (*.exe, *.o, *.dll)
-- Cache de Python (__pycache__/, .ipynb_checkpoints/)
-- Virtual environment (PSD/venv/)
-
-**Mantidos por importância** ✅:
-- PDFs de roteiros em POO/ (essenciais para enunciados dos exercícios)
-- PDFs de papers em PSD/Projeto_Final/ (fundamentam a implementação)
-
----
-
 ## 📌 Como Usar
 
 1. **Para estudar POO**: Consulte os PDFs dos roteiros dentro de cada módulo
