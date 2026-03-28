@@ -1,2 +1,133 @@
-*.vscode/
+# C/C++ Build Files
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exp
+*.lib
 *.exe
+*.out
+*.app
+*.exe.manifest
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data Science / Notebooks
+*.ipynb
+.jupyterlab-settings
+__pycache__/
+
+# Data & Models
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.csv
+*.xlsx
+*.xls
+data/
+models/
+datasets/
+out/
+output/
+results/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Operating System
+Thumbs.db
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Documentation Files (Academic Materials)
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+
+# EXCEPTIONS: Keep materials essential for courses/projects
+!POO/**/*.pdf
+!PSD/**/*.pdf
+
+# Debug & Profiling
+*.pdb
+*.gch
+*.su
+*.gda
+
+# Generated Files
+*.o.depends
+CMakeFiles/
+cmake_install.cmake
+CMakeCache.txt
+*.cmake
+.cmake
+Makefile
+*.vcxproj
+*.sln
+
+# Build/Output
+/build/
+/output/
+/dist/
+*.dSYM
+
+# Misc
+*.log
+*.swp
+*.bak
+*~
+.env
+.vscode/settings.json
